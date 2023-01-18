@@ -101,7 +101,7 @@ struct DescriptionView: View {
             
             HStack(alignment: .top) {
                 VStack(alignment: .leading){
-                    Text("Size")
+                    Text("Details")
                         .font(.system(size: 16))
                         .fontWeight(.semibold)
                     Text("Height:\(pokemon.height) cm")
@@ -110,8 +110,11 @@ struct DescriptionView: View {
                         .opacity(0.6)
                     Text("Type: \(pokemon.type)")
                         .opacity(0.6)
-                    Text("Weight: \(pokemon.weight)")
+                    Text("Attack: \(pokemon.attack)")
                         .opacity(0.6)
+                    Text("Defense: \(pokemon.defense)")
+                        .opacity(0.6)
+                    
                     
                     
                 }
