@@ -2,6 +2,9 @@
 Pokemon data is getting fetched from Pokedex API and displayed to users along with 
 other details like image,height,weight,attack,defense stats.
 
+## Third party Library -
+Kingfisher library for fetching data
+
 
 
 ## screenshots
